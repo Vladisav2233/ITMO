@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-string? ignition = "true";      //состояние зажигания
-double FrontLeftWheel = 0;                //значение колесного датчика давления
-int stoptime = 5000;         //время задержки опроса датчика в милисекундах
+string? ignition = "true";      //ignition status
+double FrontLeftWheel = 0;    //front left wheel sensor value
+int stoptime = 5000;         //sensor request delay time
 while (ignition == "true")
 {
     Console.WriteLine("ввести значение колесного датчика давления переднего левого колеса");
